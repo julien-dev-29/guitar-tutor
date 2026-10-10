@@ -1,4 +1,5 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import type { ReactNode } from "react";
 import { loadProgress, saveProgress } from "../lib/storage";
 import type { Progress } from "../lib/storage";
 interface Ctx { progress: Progress; toggleLesson(id: string): void; toggleFavorite(n: string): void; setTempo(b: number): void; }

@@ -1,0 +1,7 @@
+[
+  { "id": "knockin", "title": "Knockin' (G-D-Am)", "key": "G", "tempo": 80, "grid": ["G", "D", "Am", "Am"] },
+  { "id": "horse", "title": "Cheval (Em-D-C)", "key": "Em", "tempo": 90, "grid": ["Em", "D", "C", "C"] },
+  { "id": "odet", "title": "Ode (C-G-Am-F)", "key": "C", "tempo": 100, "grid": ["C", "G", "Am", "F"] },
+  { "id": "rumble", "title": "Rumble (E-A-B7)", "key": "E", "tempo": 110, "grid": ["E", "A", "B7", "B7"] },
+  { "id": "calme", "title": "Calme (Am-F-C-G)", "key": "Am", "tempo": 85, "grid": ["Am", "F", "C", "G"] }
+]
