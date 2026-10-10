@@ -1,0 +1,14 @@
+[
+  { "id": "l1", "level": "Bases", "title": "Tenir la guitare + Em", "chords": ["Em"], "bpm": 60, "body": "Posture, main droite, 4 temps sur Em." },
+  { "id": "l2", "level": "Bases", "title": "Am + changements Em-Am", "chords": ["Em", "Am"], "bpm": 60, "body": "Changement lent, 2 mesures chacun." },
+  { "id": "l3", "level": "Bases", "title": "C + G", "chords": ["C", "G"], "bpm": 70, "body": "Anticiper le placement." },
+  { "id": "l4", "level": "Bases", "title": "D + A", "chords": ["D", "A"], "bpm": 70, "body": "Cordes aiguës, attaque douce, 2 mesures chacun." },
+  { "id": "l5", "level": "Accords ouverts", "title": "Enchaîner G-D-Em-C", "chords": ["G", "D", "Em", "C"], "bpm": 80, "body": "Boucle de 4 accords, 1 mesure chacun, rester souple du poignet." },
+  { "id": "l6", "level": "Rythmique", "title": "Coups bas + hauts sur Am", "chords": ["Am"], "bpm": 80, "body": "Alterner 4 coups bas puis bas-haut, garder le tempo." },
+  { "id": "l7", "level": "Rythmique", "title": "Feu de camp", "chords": ["G", "C", "D", "Em"], "bpm": 90, "body": "Rythmique bas-bas-haut-haut-bas-haut sur la boucle." },
+  { "id": "l8", "level": "Barrés", "title": "F simplifié", "chords": ["F", "C"], "bpm": 70, "body": "Mini-barré 1re case, relâcher la pression entre les temps." },
+  { "id": "l9", "level": "Barrés", "title": "Bm + enchaînement Am-Bm", "chords": ["Am", "Bm"], "bpm": 70, "body": "Glisser la forme Am vers Bm, vérifier chaque corde." },
+  { "id": "l10", "level": "Arpèges", "title": "Arpège Em-Am-Dm", "chords": ["Em", "Am", "Dm"], "bpm": 70, "body": "Pincer corde par corde au pouce puis index-majeur-annulaire." },
+  { "id": "l11", "level": "Rythmique", "title": "Blues en E7-A7-B7", "chords": ["E7", "A7", "B7"], "bpm": 90, "body": "Grille 12 mesures, 4 temps par accord, accentuer le 2 et le 4." },
+  { "id": "l12", "level": "Morceau", "title": "Morceau complet G-Em-C-D", "chords": ["G", "Em", "C", "D"], "bpm": 100, "body": "Jouer la boucle 4 fois sans faute puis ajouter la rythmique feu de camp." }
+]
