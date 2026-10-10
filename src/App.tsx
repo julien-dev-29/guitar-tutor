@@ -13,7 +13,7 @@ const bottomLink = ({ isActive }: { isActive: boolean }) =>
   `flex-1 py-3 min-h-[44px] flex items-center justify-center text-sm ${isActive ? "text-amber-400 font-semibold" : "text-zinc-300"}`;
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ProgressProvider>
         <Header />
         <div className="min-h-screen pb-20 md:pb-0">
