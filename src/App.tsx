@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./pages/Home";
+import Chords from "./pages/Chords";
 const link = "flex-1 py-3 text-center text-sm";
 export default function App() {
   return (
@@ -8,7 +9,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/lecons" element={<div className="p-6">Leçons bientôt</div>} />
-          <Route path="/accords" element={<div className="p-6">Accords bientôt</div>} />
+          <Route path="/accords" element={<Chords />} />
+          <Route path="/accords/:nom" element={<Chords />} />
           <Route path="/outils" element={<div className="p-6">Outils bientôt</div>} />
           <Route path="/chansons" element={<div className="p-6">Chansons bientôt</div>} />
         </Routes>
