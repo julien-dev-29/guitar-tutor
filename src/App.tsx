@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import Chords from "./pages/Chords";
 import Lessons from "./pages/Lessons";
 import LessonView from "./pages/LessonView";
+import Tools from "./pages/Tools";
 import { ProgressProvider } from "./context/ProgressContext";
 const link = "flex-1 py-3 text-center text-sm";
 export default function App() {
@@ -16,7 +17,7 @@ export default function App() {
             <Route path="/lecons/:id" element={<LessonView />} />
             <Route path="/accords" element={<Chords />} />
             <Route path="/accords/:nom" element={<Chords />} />
-            <Route path="/outils" element={<div className="p-6">Outils bientôt</div>} />
+            <Route path="/outils" element={<Tools />} />
             <Route path="/chansons" element={<div className="p-6">Chansons bientôt</div>} />
           </Routes>
           <nav className="fixed bottom-0 inset-x-0 bg-zinc-900 border-t border-zinc-800 flex md:hidden">
