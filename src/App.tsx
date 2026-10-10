@@ -7,7 +7,7 @@ import Songs from "./pages/Songs";
 import SongView from "./pages/SongView";
 import Tools from "./pages/Tools";
 import NotFound from "./pages/NotFound";
-import Header, { navLinkClass } from "./components/Header";
+import Header from "./components/Header";
 import { ProgressProvider } from "./context/ProgressContext";
 const bottomLink = ({ isActive }: { isActive: boolean }) =>
   `flex-1 py-3 min-h-[44px] flex items-center justify-center text-sm ${isActive ? "text-amber-400 font-semibold" : "text-zinc-300"}`;
